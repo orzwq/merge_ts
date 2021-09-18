@@ -3,7 +3,7 @@
   > 注意: 脚本会把整个章节合并为1个视频文件，而非每小节
 
 ## Usage
-- 安装python3
+- 安装python3和ffmpeg
 - 安装需求库
   `pip install -r requirments.txt`
 - 配置文件config.json
