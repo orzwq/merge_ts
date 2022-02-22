@@ -6,6 +6,8 @@ import requests
 from Crypto.Cipher import AES
 from multiprocessing import Pool
 
+
+# 短书
 class Downloader:
 
     def __init__(self, shop_id, course_id, x_member, start_time=0, end_time=0, stored_dir=None, process_number=1):
