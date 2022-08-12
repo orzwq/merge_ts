@@ -108,7 +108,7 @@ class Downloader:
 
 
 if __name__ == '__main__':
-    config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config02.json')
+    config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'tanxin_config.json')
     with open(config_path, 'r') as f:
         configs = json.load(f)
     print('config load: {0}'.format(configs))
