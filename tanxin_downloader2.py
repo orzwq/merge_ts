@@ -8,7 +8,6 @@ from Crypto.Cipher import AES
 from multiprocessing import Pool
 
 
-# 贪心科技
 class Downloader:
 
     def __init__(self, course_id, token, refresh_token, cookie, site_id,
