@@ -5,7 +5,6 @@ import requests
 from multiprocessing import Pool
 
 
-# 贪心科技
 class Downloader:
 
     def __init__(self, course_id, token, refresh_token, process_number=1, stored_dir=None):
